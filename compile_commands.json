@@ -1,0 +1,40 @@
+[
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-std=c++11",
+            "-m64",
+            "-Dlinux64",
+            "-DWM_ARCH_OPTION=64",
+            "-DWM_DP",
+            "-DWM_LABEL_SIZE=32",
+            "-Wall",
+            "-Wextra",
+            "-Wold-style-cast",
+            "-Wnon-virtual-dtor",
+            "-Wno-unused-parameter",
+            "-Wno-invalid-offsetof",
+            "-Wno-attributes",
+            "-O3",
+            "-DNoRepository",
+            "-ftemplate-depth-100",
+            "-I/opt/openfoam8/src/MomentumTransportModels/momentumTransportModels/lnInclude",
+            "-I/opt/openfoam8/src/MomentumTransportModels/incompressible/lnInclude",
+            "-I/opt/openfoam8/src/transportModels/lnInclude",
+            "-I/opt/openfoam8/src/finiteVolume/lnInclude",
+            "-I/opt/openfoam8/src/meshTools/lnInclude",
+            "-I/opt/openfoam8/src/sampling/lnInclude",
+            "-IlnInclude",
+            "-I.",
+            "-I/opt/openfoam8/src/OpenFOAM/lnInclude",
+            "-I/opt/openfoam8/src/OSspecific/POSIX/lnInclude",
+            "-fPIC",
+            "-o",
+            "Make/linux64GccDPInt32Opt/simplePolyFoam.o",
+            "simplePolyFoam.C"
+        ],
+        "directory": "/home/tanja/OpenFOAM/tanja-8/applications/solvers/incompressible/simplePolyFoam",
+        "file": "simplePolyFoam.C"
+    }
+]
